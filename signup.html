@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body{
+            background-color: rgb(101, 196, 240);
+            background-image: url("https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .mid{
+
+            background-color: rgb(125, 193, 224);
+            margin-top: 300px;
+            margin-left: 500px;
+            margin-right: 1100px;
+            padding: 20px;
+            border: 5px solid rebeccapurple;
+            box-shadow: 10px 10px #5a5050;
+            
+        }
+        label{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        input{
+            height: 35px;
+            width: 100%;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        button{
+            height: 25px;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="mid">
+        <form action="sign.php",method="Post">
+            
+            <h2>Sign up / <a href="admin.html">Login</a></h2>
+            
+            <label for="name">First name :</label>
+            <br>
+            <input type="text" name="name" ><br>
+            <br>
+            <label for="phone">Phone number :</label><br>
+            <input type="text" name="phone" ><br><br>
+            <label for="addre">Department</label>
+            <br>
+            <input type="text" name="addre" ><br><br>
+            <label for="pass">Password</label>
+            <br>
+            <input type="text" name="pass" ><br><br>
+            <center>
+            <input type="submit"  value="submit" style="width: 100px;">
+            </center>
+            <a href="index.html">Return</a>
+        </form>
+        </div>
+        
+    </body>
+</html>

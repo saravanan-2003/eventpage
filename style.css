@@ -1,0 +1,13 @@
+.mid1{
+    border-radius: 2px;
+  
+    font-size: 15px;
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-right: 200px;
+}
+body{
+    background-image: url("https://flevix.com/wp-content/uploads/2019/12/Blue-Wave-Background-1.svg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}

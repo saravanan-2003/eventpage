@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style>
+            body{
+                background-color: rgb(101, 196, 240);
+                background-image: url("https://flevix.com/wp-content/uploads/2019/12/Live-Wave-Background.svg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #cen{
+
+                background-color: rgb(125, 193, 224);
+                margin-top: 350px;
+                margin-left: 500px;
+                margin-right: 1100px;
+                padding: 20px;
+                border: 5px solid rebeccapurple;
+                box-shadow: 10px 10px #5a5050;
+            }
+            input{
+                height: 35px;
+                width: 100%;
+            }
+            
+            a{
+                text-decoration: none;
+            }
+            label{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 30px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="cen">
+        <form  id="form_id" method="post" name="myform" action="login.php" >
+            <h2>Login / <a href="signup.html">Signup</h2></a>
+            
+            <label for="phone">
+                Email or Mobile Number
+            </label><Br><br>
+            <input type="text" name="phone" required id="username" size="30"/><br><br>
+            <label for="pass">Enter password</label><br><br>
+            <input type="password" name="pass" required  id="password" size="30"/>
+            <br><br>
+            <center>
+            <input type="button"  style="width: 100px;" value="Login" id="submit" padding="25px" font-size="20px" onclick="validate()"/>
+            </center>
+            <a href="index.html">Return</a>
+        </form>
+        </div>
+         
+    </body>
+</html>
